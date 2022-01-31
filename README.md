@@ -6,6 +6,7 @@ Things to know before using the code:
 2. The library SSEClient might not be installed by default, so please install it.
 3. There is an interrupt which is present inside the code, which checks for any interrupts and then terminates the program. In jupyter notebook click on "interrupt kernal button " to stop the program. For people who use the code outside of jupyter notebook, give any keyboard interrupt.If it doesn't work force stop the program. 
 4. To strart the code just run the python code and it'll start, the output will be displayed in the console/terminal.
+5. Currently the output will be displayed every 10 secs for Task1 and every 5 sec for task 2. If you want to change the timing for your reference change that within the code in the fetch_data function.
 
 Below is the Problem Statement of the code.
 
